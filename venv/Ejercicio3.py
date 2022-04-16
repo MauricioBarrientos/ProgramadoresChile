@@ -7,6 +7,4 @@ peso = (input("Ingrese su peso actual en Kg: "))
 estatura = (input("Ingrese su estatura (ej: 1.70) : "))
 imc = round(float(peso)/float(estatura)**2,2)
 
-print("Tu indice de masa corporal es: " + str(imc))#
-
-
+print("Tu indice de masa corporal es: " + str(imc))
